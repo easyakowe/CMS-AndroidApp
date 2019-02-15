@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.precious_lord.aedc_cms">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".RegisterActivity"
+            android:parentActivityName=".LoginActivity" />
+        <activity
+            android:name=".IntroActivity"
+            android:parentActivityName=".DashboardActivity" />
+        <activity android:name=".HomeActivity" />
+        <activity
+            android:name=".ComplaintActivity"
+            android:parentActivityName=".DashboardActivity" />
+        <activity
+            android:name=".EditProfile"
+            android:parentActivityName=".DashboardActivity" />
+        <activity
+            android:name=".ComplaintHistory"
+            android:parentActivityName=".DashboardActivity" />
+
+        <activity android:name=".DashboardActivity" />
+
+        <activity android:name=".AdminLogin"
+            android:parentActivityName=".LoginActivity"/>
+
+        <activity android:name=".UserComplaints" />
+
+        <activity android:name=".ReplyComplaints" />
+
+        <activity android:name=".StaffRegister"
+            android:parentActivityName=".AdminLogin"/>
+
+        <activity android:name=".AdminComplaintHistory"
+            android:parentActivityName=".AdminLogin"/>
+        <activity
+            android:name=".EditComplaint"
+            android:label="@string/title_activity_edit_complaint"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:parentActivityName=".AdminLogin"></activity>
+    </application>
+
+</manifest>

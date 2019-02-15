@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <!--<color name="colorAccent">#FF4081</color>-->
+    <color name="colorAccent">#51A2D9</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="colorTextHint">#51d8c7</color>
+    <color name="yellow">#ffd700</color>
+    <color name="lightgreen">#00ffff</color>
+
+    <color name="lightbluebcg">#f0f8ff</color>
+    <color name="deepbrown">#800000</color>
+    <color name="deepyellow">#daa520</color>
+    <color name="lightblue">#66cccc</color>
+    <color name="deepYellow">#ffa500</color>
+    <color name="black">#000000</color>
+    <color name="lightYellow">#ffff66</color>
+    <color name="sign_in_color">#A9d440</color>
+    <color name="sign_up_color">#39796b</color>
+    <color name="deeppurple">#7c4dff</color>
+    <color name="darkgreen">#00251a</color>
+    <color name="green">#004d40</color>
+    <color name="darkgray">#6c6c6c</color>
+
+    <color name="button">#51A2D9</color>
+</resources>

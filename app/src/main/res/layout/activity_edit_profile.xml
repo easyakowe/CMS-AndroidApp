@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditProfile">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:padding="8dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:src="@drawable/sampleuser"/>
+
+            <EditText
+                android:id="@+id/current_pass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/your_current_password"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="48dp"
+                android:layout_marginRight="48dp"
+                android:layout_marginBottom="16dp"
+                android:textColorHint="@color/darkgray"
+                android:textColor="@color/black"
+                android:textAlignment="center"
+                style="@style/Base.V7.Widget.AppCompat.EditText"
+                android:inputType="textPassword"/>
+
+            <EditText
+                android:id="@+id/old_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/your_old_email"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
+                android:textColorHint="@color/darkgray"
+                android:textColor="@color/black"
+                />
+
+            <EditText
+                android:id="@+id/change_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter New Email"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
+                android:textColorHint="@color/darkgray"
+                android:textColor="@color/black"
+                />
+
+            <EditText
+                android:id="@+id/confirm_newEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Confirm New Email"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
+                android:textColorHint="@color/darkgray"
+                android:textColor="@color/black"
+                />
+
+            <Button
+                android:id="@+id/btnChange"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="change"
+                android:textColor="@color/white"
+                android:background="@color/button"
+                android:textAllCaps="true"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

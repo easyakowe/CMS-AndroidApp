@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".EditComplaint"
+    tools:showIn="@layout/activity_edit_complaint">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="32dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:text="Email"
+            android:textSize="14sp"
+            android:textColor="@color/button" />
+
+        <TextView
+            android:id="@+id/emailFromRecycler"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_marginBottom="24dp"
+            android:layout_height="wrap_content"
+            android:text="Location"
+            android:textSize="14sp"
+            android:textColor="@color/button" />
+
+        <TextView
+            android:id="@+id/locationFromRecycler"
+            android:layout_width="match_parent"
+            android:layout_marginBottom="24dp"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_marginBottom="24dp"
+            android:layout_height="wrap_content"
+            android:text="Category"
+            android:textSize="14sp"
+            android:textColor="@color/button" />
+
+        <TextView
+            android:id="@+id/categoryFromRecycler"
+            android:layout_width="match_parent"
+            android:layout_marginBottom="24dp"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_marginBottom="24dp"
+            android:layout_height="wrap_content"
+            android:text="Subject"
+            android:textSize="14sp"
+            android:textColor="@color/button" />
+
+        <EditText
+            android:id="@+id/subjectFromRecycler"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:hint="Subject"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:enabled="false"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_marginBottom="24dp"
+            android:layout_height="wrap_content"
+            android:text="Message"
+            android:textSize="14sp"
+            android:textColor="@color/button" />
+
+        <EditText
+            android:id="@+id/messageFromRecycler"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:hint="Message"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_marginBottom="24dp"
+            android:layout_height="wrap_content"
+            android:text="Reply"
+            android:textSize="14sp"
+            android:textColor="@color/button" />
+
+        <TextView
+            android:id="@+id/replyFromStaff"
+            android:layout_width="match_parent"
+            android:layout_marginBottom="24dp"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="@color/green"
+            android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/confirm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="64dp"
+            android:background="@color/button"
+            android:text="Confirm"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:id="@+id/clickToReply"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="48dp"
+            android:textAlignment="center"
+            android:text="Click to reply this Complaint!"
+            android:textSize="16sp"
+            android:textColor="@color/black"/>
+
+        <LinearLayout
+            android:id="@+id/verifyStaff_lyt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <EditText
+                android:id="@+id/verifyStaffID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:hint="Enter staff ID"
+                android:textColor="@color/black"/>
+
+            <EditText
+                android:id="@+id/verifyStaffPass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:hint="Enter Password"
+                android:textColor="@color/black"
+                android:inputType="textPassword"/>
+
+            <Button
+                android:id="@+id/verifyEntry"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="64dp"
+                android:layout_gravity="center"
+                android:text="Verify"
+                android:textColor="@color/white"
+                android:background="@color/button"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/giveReply_lyt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="64dp"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <EditText
+                android:id="@+id/reply_txt"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginBottom="8dp"
+                android:hint="Reply"
+                android:textColor="@color/black"/>
+
+            <Button
+                android:id="@+id/sendReply"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_gravity="center"
+                android:text="Send"
+                android:textColor="@color/white"
+                android:background="@color/button"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

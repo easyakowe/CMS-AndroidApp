@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">AEDC_CMS</string>
+    <string name="hint_name">Name</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_confirm_password">Confirm Password</string>
+    <string name="text_login">Login</string>
+    <string name="text_register">Register</string>
+    <string name="error_message_name">Enter Full Name</string>
+    <string name="error_message_email">Enter Vaild Email</string>
+    <string name="error_message_password">Enter Password</string>
+    <string name="success_message">Registration Successful</string>
+    <string name="text_not_member">No account yet? Create Account</string>
+    <string name="text_already_member">Already a member? Login</string>
+    <string name="error_email_exists">Email Already Exists</string>
+    <string name="error_password_match">Passwords Do Not Match</string>
+    <string name="error_vaild_email_password">Wrong Email or Password</string>
+
+    <string name="title_homepage">Home</string>
+    <string name="title_complaintpage">Register Complaint</string>
+    <string name="title_complainthstry">Complaint History</string>
+    <string name="title_loginpage">Login</string>
+    <string name="title_adminloginpage">Staff Login</string>
+    <string name="title_editaccount">Change Email</string>
+    <string name="title_about">About</string>
+    <string name="title_dashboard">Dashboard</string>
+
+    <string name="intro">
+        Abuja Electricity Distribution Company - Complaint Management System, AEDC-CMS is an electricity distribution company that came into operation in 2010 after the privatization of power holding company of Nigeria (PHCN) by its sole owner, the Federal government of Nigeria. \n
+        This privatization was due to PHCN not living up to its statutory function, which was to develop and maintain an efficient, co-ordinate and economical system of electricity supply throughout the federation. For a company like AEDC with millions of clients in Lokoja, it is difficult if not nearly impossible to satisfy every customer’s need, chiefly because of lack of adequate platform for customers to express their dissatisfaction and receive response effectively and efficiently.\n 
+        Although the company has its manual way of collecting complaint via complaint box which is burdensome and time consuming because the customer will have to go to the office, write his complaint and post it in the box, which at the end of the day may not be attended to. Furthermore in cases of emergency of fire outbreak, perhaps due to transformer overloading which might cause electricity zapping on high tension wire, an effective, efficient and responsive complaint system will be needed to curb the situation, else there will be fire outbreak, and this could lead to loss of goods and properties and might also lead to loss of life.</string>
+
+    <string name="about">Abuja Electricity Distribution Company (AEDC) is one of the 11 power distribution companies that were successfully privatised and handed over to new investors on November 1, 2013. AEDC has a franchise for the distribution and sale of electricity, across an area of 133,000 square kilometres in the Federal Capital Territory, Niger State, Kogi State and Nassarawa State. The company was established in 1997 and ranked fourth among the eleven Nigerian distribution companies for electricity purchased and distributed.</string>
+
+    <string name="header2">The 26 Geographic Business Units</string>
+
+    <string name="content">
+        Wuse Business Unit;\n
+        Garki Business Unit;\n
+        Apo Business Unit;\n
+        Asokoro Business Unit;\n
+        Bida Business Unit;\n
+        Bosso Business Unit;\n
+        Bwari Business Unit;\n
+        Gwagwalada Business Unit;\n
+        Idah Business Unit;\n
+        Jabi Bussiness Unit;\n
+        Karu Business Unit;\n
+        Katampe Business Unit and\n
+        Keffi Business Unit.\n
+\n
+    Others include:\n
+        Kontagora Business Unit;\n
+        Kubwa Business Unit; \n
+        Kuje Business Unit; \n
+        Lafia Business Unit; \n
+        Life camp Business Unit;\n
+        Lokoja Business Unit; \n
+        Lugbe Business Unit; \n
+        Maitama Business Unit; \n
+        Mararaba Business Unit; \n
+        Minna Business Unit; \n
+        Okene Business Unit and \n
+        Suleja Business Unit.\n
+        
+        The rest are Gwarinpa Business Unit; Kabba Undertaking; and Akwanga Undertaking. 
+    </string>
+
+    <string name="home_intro_text">Briefing on Abuja electricity distribution company</string>
+    <string name="home_acctSetting_text">View users profile and edit your account setting</string>
+    <string name="complaintHistory_text">View all complaints </string>
+    <string name="makeComplaint_text">Make your complaints here</string>
+    <string name="your_current_password">Current Password</string>
+    <string name="your_old_email">Your Old Email</string>
+    <string name="title_activity_edit_complaint">EditComplaint</string>
+</resources>
